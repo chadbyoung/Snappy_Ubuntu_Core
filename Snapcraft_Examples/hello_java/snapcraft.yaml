@@ -1,0 +1,23 @@
+name: dell-java-hello-world # the name of the snap
+version: 0.0.1  # the version of the snap
+# The vendor for the snap (replace 'Vendor <email@example.com>')
+vendor: Chad Young <chad_young@dell.com>
+summary: A Java test program # 79 char long summary
+description: A program written in Java that checks to see if Java is installed and working. # A longer description for the snap
+icon: dell.png # A path to an icon for the package
+
+binaries:
+    test:
+        exec: java_hello_world.run
+
+parts:
+    local:
+        plugin: jdk
+        source: .
+    glue:
+        plugin: copy
+        files: 
+            bin/java_hello_world.run: bin/java_hello_world.run
+            bin/java_hello_world.class: bin/java_hello_world.class
+            src/java_hello_world.java: src/java_hello_world.java
+
