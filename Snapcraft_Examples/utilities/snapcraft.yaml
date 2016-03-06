@@ -1,0 +1,19 @@
+name: test-lsusb # the name of the snap
+version: 0.0.1 # the version of the snap
+# The vendor for the snap (replace 'Vendor <email@example.com>')
+vendor: Chad Young <chadbyoung@gmail.com>
+summary: test  # 79 char long summary
+description: test # A longer description for the snap
+icon: icon.png # A path to an icon for the package
+
+parts:
+    utilities:
+        plugin: nil
+        stage-packages:
+            - usbutils
+            - pciutils
+            - vim
+
+build-packages: [usbutils]
+build-packages: [pciutils]
+build-packages: [vim]
