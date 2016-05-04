@@ -1,13 +1,12 @@
 name: dell-cpp-hello-world # the name of the snap
 version: 0.0.1  # the version of the snap
-#vendor: Chad Young <chad_young@dell.com>
 summary: A CPP hello world program # 79 char long summary
 description: A program in CPP that says Hello World! # A longer description for the snap
 icon: dell.png # A path to an icon for the package
 
-binaries:
+apps:
     test:
-        exec: bin/hello.cpp.run
+        command: bin/hello.cpp.run
 
 parts:
     glue:
