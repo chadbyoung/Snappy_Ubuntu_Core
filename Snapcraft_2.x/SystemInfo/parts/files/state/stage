@@ -1,6 +1,0 @@
-!StageState
-directories: !!set {}
-files: !!set {README.md: null, systeminfo: null}
-project_options: {}
-properties:
-  stage: ['*']
