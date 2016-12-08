@@ -1,0 +1,6 @@
+!StageState
+directories: !!set {bin: null}
+files: !!set {bin/hello.cpp.run: null}
+project_options: {}
+properties:
+  stage: ['*']

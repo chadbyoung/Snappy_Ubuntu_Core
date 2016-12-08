@@ -1,0 +1,4 @@
+!BuildState
+project_options: {deb_arch: amd64}
+properties: {disable-parallel: null}
+schema_properties: [disable-parallel]

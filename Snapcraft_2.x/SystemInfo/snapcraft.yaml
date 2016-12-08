@@ -1,0 +1,16 @@
+name: systeminfo # 
+version: '0.3' # 
+summary: This snap runs a simple shell script #
+description: This snap will print system information to the screen #
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+parts:
+  files:
+    plugin: dump
+    source: .
+
+apps:
+  show:
+    command: systeminfo
+

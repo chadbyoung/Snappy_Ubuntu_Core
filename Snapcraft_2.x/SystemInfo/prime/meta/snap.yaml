@@ -1,0 +1,11 @@
+apps:
+  show:
+    command: command-show.wrapper
+architectures:
+- amd64
+confinement: devmode
+description: This snap will print system information to the screen
+grade: devel
+name: systeminfo
+summary: This snap runs a simple shell script
+version: '0.3'
