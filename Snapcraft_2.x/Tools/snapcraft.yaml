@@ -1,0 +1,40 @@
+name: clt #
+version: '0.3' # 
+summary: command line tools for snappy #
+description: command line tools for snappy lspci lsusb dmidecode #
+grade: devel # 
+confinement: devmode #
+
+apps:
+    lspci:
+        command: usr/bin/lspci
+        plugs: [hardware-observe]
+    lsusb:
+        command: usr/bin/lsusb
+        plugs: [hardware-observe]
+    dmidecode:
+        command: usr/sbin/dmidecode
+        plugs: [hardware-observe]
+
+parts:
+    pciutils:
+        plugin: nil 
+        stage-packages:
+            - pciutils 
+        snap:
+            - -usr/share/doc
+            - -usr/share/man
+    usbutils:
+        plugin: nil
+        stage-packages:
+            - usbutils
+        snap:
+            - -usr/share/doc
+            - -usr/share/man
+    dmidecode:
+        plugin: nil
+        stage-packages:
+            - dmidecode
+        snap:
+            - -usr/share/doc
+            - -usr/share/man
