@@ -19,7 +19,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
     
-    <title>Snappy_Ubuntu_Core/systeminfo at master · chadyoungdell/Snappy_Ubuntu_Core</title>
+    <title>Snappy_Ubuntu_Core/README.md at master · chadyoungdell/Snappy_Ubuntu_Core</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -39,10 +39,10 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTQwNzU2NDE3OmYwNjVjODE5NTVhYjJjNDVlNGNjNzA0OWEyMDE4NmQ4Y2JmYTBiZDc2MmE1ODI0MjQ0MzM1MWI4NzBlMGY0OWI=--49ff05095b2200f9b7f3514d3eb38a31d6e48f9c">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTQwNzU2NDE3OjQ5YzVjOTVkYTViMmRmZWEzNzQ2NDhlOTNkZWZjNTdkNmNjNmY0NjA1M2RjNmNkMzM3YzA3MzMyZDBkODkyNmQ=--72cf891fb2adb9d4b9858cad0bc2948e9c89c620">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
-    <meta name="request-id" content="18F24E56:7727:4CC7999:58544800" data-pjax-transient>
+    <meta name="request-id" content="18F24E56:7729:5AA764F:58544795" data-pjax-transient>
 
     <meta name="msapplication-TileImage" content="/windows-tile.png">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -52,7 +52,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="18F24E56:7727:4CC7999:58544800" name="octolytics-dimension-request_id" /><meta content="17598975" name="octolytics-actor-id" /><meta content="chadyoungdell" name="octolytics-actor-login" /><meta content="aa107025bbd362598cf21cb145bb3edc389ff797ceb9d47725cd128a0742a7f5" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="18F24E56:7729:5AA764F:58544795" name="octolytics-dimension-request_id" /><meta content="17598975" name="octolytics-actor-id" /><meta content="chadyoungdell" name="octolytics-actor-login" /><meta content="aa107025bbd362598cf21cb145bb3edc389ff797ceb9d47725cd128a0742a7f5" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -65,7 +65,7 @@
     <meta name="user-login" content="chadyoungdell">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="YTU0YjYyYmY4OTA2MzUxZDNiZTNjOTFmOThjYTMwN2E0YTg0OWRkNjQ5ODJkNjdhOGY2ZTE5MDc0NDJiZTViZHx7InJlbW90ZV9hZGRyZXNzIjoiMjQuMjQyLjc4Ljg2IiwicmVxdWVzdF9pZCI6IjE4RjI0RTU2Ojc3Mjc6NENDNzk5OTo1ODU0NDgwMCIsInRpbWVzdGFtcCI6MTQ4MTkxODQ2NSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="ODJhOTExMGNjZDE4ZDYyMjhjNmIzY2IzYmRmZjlkN2JjNTUzZmEyNDAxOWE4YzJhYTk1ZDIzMmFmODQ5ODAwN3x7InJlbW90ZV9hZGRyZXNzIjoiMjQuMjQyLjc4Ljg2IiwicmVxdWVzdF9pZCI6IjE4RjI0RTU2Ojc3Mjk6NUFBNzY0Rjo1ODU0NDc5NSIsInRpbWVzdGFtcCI6MTQ4MTkxODM1NywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
@@ -85,7 +85,7 @@
   <link href="https://github.com/chadyoungdell/Snappy_Ubuntu_Core/commits/master.atom" rel="alternate" title="Recent Commits to Snappy_Ubuntu_Core:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/chadyoungdell/Snappy_Ubuntu_Core/blob/master/Snapcraft_2.x/SystemInfo/systeminfo" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/chadyoungdell/Snappy_Ubuntu_Core/blob/master/Snapcraft_2.x/SystemInfo/README.md" data-pjax-transient>
   </head>
 
 
@@ -227,7 +227,7 @@
           Settings
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="S2QqGMa0/TBZQ25caijrop8KmciT6BQxw06LxfOwZ+QXkuHMpX2y+tTXzk/RlGjxaXqv18MtO+//O6HYAMsSKg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="f7t9hUOgMZwA1tcK8rTooshuMggGMHj45RjaMhpxY5ojTbZRIGl+Vo1CdxlJCGvxPh4EF1b1VybZbfAv6QoWVA==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -263,7 +263,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lf/dDhWC1FHs6XK16z5A6UXCtSkQm0QH+LR3aTX22krJCRbadkubm2F90qZQgsO6s7KDNkBea9nEwV10xo2vhA==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="52982565" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xsGFIq7DXC0nIWs+xG369U0Cmp7pv+UVd4dISyXsUXGaN072zQoT56q1yy1/0Xmmu3Ksgbl6ystL8mJW1pckvw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="52982565" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/chadyoungdell/Snappy_Ubuntu_Core/subscription"
@@ -340,7 +340,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/unstar" class="starred" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+67l/whbUmd1kWDLG+BJCfmRNW1ZXQLTnTYaOZBPwdmnWC4ra5IdrfgFwNigXMpaD+EDcgmYLQ2hQzAkYzS0Fw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/unstar" class="starred" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="CvcN1lC4kA9SPiwChQ095QrlHFX29RQ6WAT9JYhkau1WAcYCM3Hfxd+qjBE+sb62/JUqSqYwO+Rkcdc4ex8fIw==" /></div>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
@@ -354,7 +354,7 @@
           0
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/star" class="unstarred" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8vD6PqkDHQEIJ2xr+CHhbGHs/qUEu/5aeZyYd4h3fCSuBjHqyspSy4WzzHhDnWI/l5zIulR+0YRF6bJqewwJ6g==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/star" class="unstarred" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="yUEir/Ax6FHtvK/HwGPGj+dReIk4GI2mfZST2wAQTaqVt+l7k/inm2AoD9R730XcESFOlmjdonhB4bnG82s4ZA==" /></div>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
@@ -372,7 +372,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/fork" class="btn-with-count" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="jWfCnJQe/cd2vvFUzFiCSqanVE4sHKFzDr63wU/A18HRkQlI99eyDfsqUUd35AEZUNdiUXzZjq0yy53cvLuiDw==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/fork" class="btn-with-count" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nZOw4iyUpngXdsYRuVL8dzJ3/7tepvok2txEb9s13/fBZXs2T13pspriZgIC7n8kxAfJpA5j1frmqW5yKE6qOQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -462,9 +462,9 @@
 
     
 
-<a href="/chadyoungdell/Snappy_Ubuntu_Core/blob/e9c24e83bda8d6e388af83d1a4b25246289d983f/Snapcraft_2.x/SystemInfo/systeminfo" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/chadyoungdell/Snappy_Ubuntu_Core/blob/e9c24e83bda8d6e388af83d1a4b25246289d983f/Snapcraft_2.x/SystemInfo/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:72f05a1d3aa528316ce6aabb79ff02e1 -->
+<!-- blob contrib key: blob_contributors:v21:343c08398141467892916e4dce1d1afb -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -506,7 +506,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/chadyoungdell/Snappy_Ubuntu_Core/blob/master/Snapcraft_2.x/SystemInfo/systeminfo"
+               href="/chadyoungdell/Snappy_Ubuntu_Core/blob/master/Snapcraft_2.x/SystemInfo/README.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -517,7 +517,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+YDSmkM6GQdf5Oc1pFZYJN/9mXoyBhhujcHJrb+crtCldhlOIPNWzdJwRyYf6tt3KY2vZWLDN7CxtOOwTOfbHg==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qb+Erc/AiOP3pRXyBLkE/q5kjNQ4fCWfwVpxyP+ibFv1SU95rAnHKXoxteG/BYetWBS6y2i5CkH9L1vVDNkZlQ==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -525,7 +525,7 @@
             </div>
             <input type="hidden" name="name" id="name" class="js-new-item-value">
             <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="Snapcraft_2.x/SystemInfo/systeminfo">
+            <input type="hidden" name="path" id="path" value="Snapcraft_2.x/SystemInfo/README.md">
 </form>
       </div>
 
@@ -552,61 +552,38 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/chadyoungdell/Snappy_Ubuntu_Core"><span>Snappy_Ubuntu_Core</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/chadyoungdell/Snappy_Ubuntu_Core/tree/master/Snapcraft_2.x"><span>Snapcraft_2.x</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/chadyoungdell/Snappy_Ubuntu_Core/tree/master/Snapcraft_2.x/SystemInfo"><span>SystemInfo</span></a></span><span class="separator">/</span><strong class="final-path">systeminfo</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/chadyoungdell/Snappy_Ubuntu_Core"><span>Snappy_Ubuntu_Core</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/chadyoungdell/Snappy_Ubuntu_Core/tree/master/Snapcraft_2.x"><span>Snapcraft_2.x</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/chadyoungdell/Snappy_Ubuntu_Core/tree/master/Snapcraft_2.x/SystemInfo"><span>SystemInfo</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
   </div>
 </div>
 
-
-  <div class="commit-tease">
-      <span class="float-right">
-        <a class="commit-tease-sha" href="/chadyoungdell/Snappy_Ubuntu_Core/commit/e9c24e83bda8d6e388af83d1a4b25246289d983f" data-pjax>
-          e9c24e8
-        </a>
-        <relative-time datetime="2016-12-12T21:45:19Z">Dec 12, 2016</relative-time>
-      </span>
-      <div>
-        <img alt="@chadyoungdell" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/17598975?v=3&amp;s=40" width="20" />
-        <a href="/chadyoungdell" class="user-mention" rel="author">chadyoungdell</a>
-          <a href="/chadyoungdell/Snappy_Ubuntu_Core/commit/e9c24e83bda8d6e388af83d1a4b25246289d983f" class="message" data-pjax="true" title="modified shell script to get Caracalla kernel information">modified shell script to get Caracalla kernel information</a>
-      </div>
-
-    <div class="commit-tease-contributors">
-      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
-        <strong>1</strong>
-         contributor
-      </button>
-      
-    </div>
-
-    <div id="blob_contributors_box" style="display:none">
-      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
-      <ul class="facebox-user-list" data-facebox-id="facebox-description">
-          <li class="facebox-user-list-item">
-            <img alt="@chadyoungdell" height="24" src="https://avatars2.githubusercontent.com/u/17598975?v=3&amp;s=48" width="24" />
-            <a href="/chadyoungdell">chadyoungdell</a>
-          </li>
-      </ul>
-    </div>
+<include-fragment class="commit-tease" src="/chadyoungdell/Snappy_Ubuntu_Core/contributors/master/Snapcraft_2.x/SystemInfo/README.md">
+  <div>
+    Fetching contributors&hellip;
   </div>
 
+  <div class="commit-tease-contributors">
+    <img alt="" class="loader-loading float-left" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" />
+    <span class="loader-error">Cannot retrieve contributors at this time</span>
+  </div>
+</include-fragment>
 
 <div class="file">
   <div class="file-header">
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/chadyoungdell/Snappy_Ubuntu_Core/raw/master/Snapcraft_2.x/SystemInfo/systeminfo" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/chadyoungdell/Snappy_Ubuntu_Core/blame/master/Snapcraft_2.x/SystemInfo/systeminfo" class="btn btn-sm js-update-url-with-hash BtnGroup-item">Blame</a>
-      <a href="/chadyoungdell/Snappy_Ubuntu_Core/commits/master/Snapcraft_2.x/SystemInfo/systeminfo" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/chadyoungdell/Snappy_Ubuntu_Core/raw/master/Snapcraft_2.x/SystemInfo/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/chadyoungdell/Snappy_Ubuntu_Core/blame/master/Snapcraft_2.x/SystemInfo/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item">Blame</a>
+      <a href="/chadyoungdell/Snappy_Ubuntu_Core/commits/master/Snapcraft_2.x/SystemInfo/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/edit/master/Snapcraft_2.x/SystemInfo/systeminfo" class="inline-form js-update-url-with-hash" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="vvi7GCXR0MesIvwb7QlnvO6qkpVkhHMtgImrczx95uDiDnDMRhifDSG2XAhWteTvGNqkijRBXPO8/IFuzwaTLg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/edit/master/Snapcraft_2.x/SystemInfo/README.md" class="inline-form js-update-url-with-hash" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="3A7D+GWf1pVEUGdqHdcjfjT1VL0ngU5M16ZslNhbZu2A+AgsBlaZX8nEx3mma6AtwoViondEYZLr00aJKyATIw==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/delete/master/Snapcraft_2.x/SystemInfo/systeminfo" class="inline-form" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="DmH5ItIYMmvKDmnZBs8pjgwVfuYoKkko7V7gcQU24bdSlzL2sdF9oUeaycq9c6rd+mVI+XjvZvbRK8ps9k2UeQ==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/chadyoungdell/Snappy_Ubuntu_Core/delete/master/Snapcraft_2.x/SystemInfo/README.md" class="inline-form" data-form-nonce="3c6ed32c6033170b619d05c25eef56ba4af67536" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+GAejeHAq7bMMWZbtXaSIsz9/nrqJDDJBW7fl9/mqxOkltVZggnkfEGlxkgOyhFxOo3IZbrhHxc5G/WKLJ3e3Q==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -614,153 +591,18 @@
 </form>  </div>
 
   <div class="file-info">
-      <span class="file-mode" title="File mode">executable file</span>
+      5 lines (2 sloc)
       <span class="file-info-divider"></span>
-      34 lines (32 sloc)
-      <span class="file-info-divider"></span>
-    1001 Bytes
+    117 Bytes
   </div>
 </div>
 
   
+  <div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><p>This is a simple shell script to show board/platform information</p>
 
-  <div itemprop="text" class="blob-wrapper data type-shell">
-      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
-      <tr>
-        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">#!/bin/bash</span></td>
-      </tr>
-      <tr>
-        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">clear</td>
-      </tr>
-      <tr>
-        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>----------<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>----------<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">cat /sys/devices/virtual/dmi/id/sys_vendor </td>
-      </tr>
-      <tr>
-        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">cat /sys/devices/virtual/dmi/id/product_name</td>
-      </tr>
-      <tr>
-        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line">cat /sys/devices/virtual/dmi/id/product_serial</td>
-      </tr>
-      <tr>
-        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>--- BIOS Information ---<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">cat /sys/devices/virtual/dmi/id/bios_vendor</td>
-      </tr>
-      <tr>
-        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">cat /sys/devices/virtual/dmi/id/bios_date</td>
-      </tr>
-      <tr>
-        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">cat /sys/devices/virtual/dmi/id/bios_version</td>
-      </tr>
-      <tr>
-        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>--- Processor Information ---<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">cat /proc/cpuinfo <span class="pl-k">|</span> grep <span class="pl-s"><span class="pl-pds">&#39;</span>name<span class="pl-pds">&#39;</span></span><span class="pl-k">|</span> uniq <span class="pl-k">|</span> awk <span class="pl-s"><span class="pl-pds">&#39;</span>{print $4&quot; &quot;$5&quot; &quot;$6&quot; &quot;$7&quot; &quot;$8&quot; &quot;$9}<span class="pl-pds">&#39;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>--- System Information ---<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">file=<span class="pl-s"><span class="pl-pds">&quot;</span>/snap/caracalla-kernel/current/meta/snap.yaml<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-k">if</span> [ <span class="pl-k">-f</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-smi">$file</span><span class="pl-pds">&quot;</span></span> ]</td>
-      </tr>
-      <tr>
-        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-k">then</span></td>
-      </tr>
-      <tr>
-        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Kernel Information<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">cat /snap/caracalla-kernel/current/meta/snap.yaml <span class="pl-k">|</span> grep name <span class="pl-k">|</span> awk <span class="pl-s"><span class="pl-pds">&#39;</span>{print&quot;    &quot;$2 $3}<span class="pl-pds">&#39;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-c">#cat /snap/caracalla-kernel/current/meta/snap.yaml | grep type | awk &#39;{print&quot;    &quot;$2 $3}&#39;</span></td>
-      </tr>
-      <tr>
-        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">cat /snap/caracalla-kernel/current/meta/snap.yaml <span class="pl-k">|</span> grep version <span class="pl-k">|</span> awk <span class="pl-s"><span class="pl-pds">&#39;</span>{print&quot;    &quot;$2 $3}<span class="pl-pds">&#39;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-k">else</span></td>
-      </tr>
-      <tr>
-        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>file not found<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-k">fi</span></td>
-      </tr>
-      <tr>
-        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span><span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>----------<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-      <tr>
-        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">&quot;</span>----------<span class="pl-pds">&quot;</span></span></td>
-      </tr>
-</table>
-
+<p>Form the command line, run "sudo systeminfo.show"</p>
+</article>
   </div>
 
 </div>
@@ -798,7 +640,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.08319s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.09276s from github-fe-b03c132.cp1-iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
