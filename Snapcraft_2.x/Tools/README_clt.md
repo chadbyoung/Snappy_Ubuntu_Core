@@ -1,12 +1,16 @@
-# command line tool
+# Get Info Snap README
+* Created by Chad Young	 <chad_young@dell.com>
 
-This is the README for the command line tools (clt) snap.
+To get data from this snap, run the following commands:
 
-To get data from the tool run the following:
+    getinfo.lspci
+    getinfo.lsusb
+    getinfo.dmidecode
+    getinfo.lshw
 
-    clt.lspci
-    clt.lsusb
-    clt.dmidecode
 
-## The insight on how to create this snap came form here:
+
+
+
+The insight on how to create this snap came form here:
         https://github.com/woodrow-shen/snapcraft-pciutils/blob/master/snapcraft.yaml

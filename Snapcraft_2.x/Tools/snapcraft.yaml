@@ -15,6 +15,9 @@ apps:
     dmidecode:
         command: usr/sbin/dmidecode
         plugs: [hardware-observe]
+    lshw:
+        command: usr/bin/lshw
+        plugs: [hardware-observe]
 
 parts:
     pciutils:
@@ -35,6 +38,13 @@ parts:
         plugin: nil
         stage-packages:
             - dmidecode
+        snap:
+            - -usr/share/doc
+            - -usr/share/man
+    lshw:
+        plugin: nil
+        stage-packages:
+            - lshw
         snap:
             - -usr/share/doc
             - -usr/share/man
