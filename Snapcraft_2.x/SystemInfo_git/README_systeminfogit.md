@@ -7,7 +7,7 @@ to pull all the files from github
 Prereqisits:
 Snapcraft has been installed on your development
 
-  How to install:
+    How to install:
     1. Download the snapcraft.yaml file to a folder of your choice.
     2. Run the command "snapcraft"
     3. The snapcraft file will download the necessary files and create the snap.
