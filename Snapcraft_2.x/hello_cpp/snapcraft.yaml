@@ -1,14 +1,16 @@
-name: dell-cpp-hello-world # the name of the snap
+name: hello-world-cpp # the name of the snap
 version: 0.0.1  # the version of the snap
 summary: A CPP hello world program # 79 char long summary
 description: A program in CPP that says Hello World! # A longer description for the snap
 
 apps:
-    test:
-        command: bin/hello.cpp.run
+    run:
+        command: Hello
 
 parts:
-    glue:
-        plugin: copy
-        files: 
-            bin/hello.cpp.run: bin/hello.cpp.run
+    build:
+        plugin: make
+        source: .
+
+#        files: 
+#            bin/hello.cpp.run: bin/hello.cpp.run
