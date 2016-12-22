@@ -1,10 +1,12 @@
 # README for hello_cpp
+# Chad Young <chad_young@dell.com)
 
-This snap will do a few things
-* (1) run the make program and compile the cpp code
-* (2) snap the resulting file into an executable for snappy
+This is a basic "Hello World!" c++ program. The uniqueness of this program is that
+it is compiled via the snapcraft process (while using a make file)  
 
 ## How to run in Snappy
-From the command prompt run the command "hello-world-cpp.run"
+Install the snap that is created using the --devmode option
+
+From the command prompt run "hello-world-cpp.run" (minus quotes)
 
 
