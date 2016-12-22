@@ -1,6 +1,0 @@
-!BuildState
-project_options: {deb_arch: amd64}
-properties:
-  disable-parallel: null
-  files: {bin/hello.cpp.run: bin/hello.cpp.run}
-schema_properties: [disable-parallel, files]
