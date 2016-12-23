@@ -1,0 +1,30 @@
+#!/bin/bash
+# This shell file will copy the readme to the user directory
+# email = <chad_young@dell.com>
+
+echo -----
+echo -----
+echo $PWD
+echo -----
+echo -----
+echo $HOME
+echo -----
+echo -----
+echo $SNAP_DATA
+echo -----
+echo -----
+echo $SNAP_COMMON
+echo -----
+echo -----
+echo $SNAP_USER_COMMON
+echo -----
+echo -----
+echo $SNAP_USER_DATA
+
+echo XXXXX
+
+
+
+
+#cp ./README_systeminfo.md /home/$USER/testfile.md
+

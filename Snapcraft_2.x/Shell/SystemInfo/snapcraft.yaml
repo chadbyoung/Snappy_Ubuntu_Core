@@ -15,11 +15,22 @@ grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
+  # This is the command to show the system info 
   show:
     command: systeminfo
+  # This is a command to move the readme from the snap the user's home dir
+  mvfile:
+    command: ./copyreadme
+    daemon: simple
 
 parts:
+
   show:
     plugin: dump
     source: .
 
+  mvfile:
+    plugin: dump
+    source: .
+    organize:
+        copyreadme: $SNAP_DATA
