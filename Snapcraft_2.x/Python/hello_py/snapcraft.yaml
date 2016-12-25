@@ -8,10 +8,15 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 
 apps:
+  hello:
+    command: "python hello.py"
+  python:
+    command: python
 
 
 
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  sample:
+    plugin: python
+    python-version: python2
+    source: .
