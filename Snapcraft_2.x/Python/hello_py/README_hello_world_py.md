@@ -4,6 +4,8 @@
 	README two command lines are shown that will allow you to view "Hello World" in
 	python.
 
+	When you install the snap you must the "--devmode" option
+
 	For questions, please email chad_young@dell.com
 
 ## Run the following commands to display output
