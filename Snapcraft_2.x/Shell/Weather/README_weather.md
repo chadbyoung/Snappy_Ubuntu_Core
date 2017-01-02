@@ -4,7 +4,7 @@
 This program will print the current temperature in Pflugerville TX
 
 ## Instructions
-To display system information, run the following commmand:
+To display the current temperature, run the following commmand:
 
 weather.gettemp
 
