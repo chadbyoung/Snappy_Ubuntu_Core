@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+# This shell script pulls the weather data for my city, then the awk script parses the city name and temperature
+
+# Setting the weather url for my area
+url='http://www.accuweather.com/en/us/pflugerville-tx/78660/weather-forecast/2144251'
+
+wget -q -O- "$url" | sed -nf sedscr	
+
