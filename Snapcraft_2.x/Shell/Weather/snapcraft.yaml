@@ -10,6 +10,11 @@ apps:
  # This is the awk command
   awk:
     command: /usr/bin/awk
+  sed:
+    command: /bin/sed
+  wget:
+    command: /usr/bin/wget
+
 
  # This command runs the shell script to show system information
   gettemp:
@@ -26,5 +31,7 @@ parts:
     source: .
     stage-packages:
             - wget
+            - sed
     build-packages:
             - wget
+            - sed
