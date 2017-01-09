@@ -1,4 +1,4 @@
-name: weather # 
+name: pf-weather # 
 version: '0.1' # 
 summary: This snap will display temperature in Pflugerville TX # 
 description: This snap will display temperature in Pflugerville TX 
