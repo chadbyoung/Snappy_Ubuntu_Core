@@ -1,5 +1,5 @@
 name: clt #
-version: '0.3' # 
+version: '0.4' # 
 summary: command line tools for snappy #
 description: command line tools for snappy lspci lsusb dmidecode #
 grade: devel # 
@@ -18,6 +18,8 @@ apps:
     lshw:
         command: usr/bin/lshw
         plugs: [hardware-observe]
+    hwinfo:
+        command: usr/sbin/hwinfo
 
 parts:
     pciutils:
@@ -48,3 +50,17 @@ parts:
         snap:
             - -usr/share/doc
             - -usr/share/man
+
+    hwinfo:
+        plugin: nil
+        stage-packages:
+            - hwinfo
+        snap:
+            - -usr/share/doc
+            - -usr/share/man
+
+
+
+
+
+

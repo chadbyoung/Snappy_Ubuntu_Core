@@ -1,12 +1,13 @@
-# Get Info Snap README
+# Command line tool version 0.4
 * Created by Chad Young	 <chad_young@dell.com>
 
 To get data from this snap, run the following commands:
 
-    getinfo.lspci
-    getinfo.lsusb
-    getinfo.dmidecode
-    getinfo.lshw
+    clt.lspci
+    clt.lsusb
+    clt.dmidecode
+    clt.lshw
+    clt.hwinfo
 
 
 
