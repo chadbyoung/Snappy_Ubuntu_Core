@@ -1,4 +1,4 @@
-name: weather # 
+name: pf-weather # 
 version: '0.1' # 
 summary: This snap will display temperature in Pflugerville TX # 
 description: This snap will display temperature in Pflugerville TX 
@@ -10,6 +10,11 @@ apps:
  # This is the awk command
   awk:
     command: /usr/bin/awk
+  sed:
+    command: /bin/sed
+  wget:
+    command: /usr/bin/wget
+
 
  # This command runs the shell script to show system information
   gettemp:
@@ -26,5 +31,7 @@ parts:
     source: .
     stage-packages:
             - wget
+            - sed
     build-packages:
             - wget
+            - sed

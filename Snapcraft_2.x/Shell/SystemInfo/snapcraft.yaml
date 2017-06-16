@@ -1,5 +1,5 @@
 name: systeminfo # 
-version: '0.1' # 
+version: '0.2' # 
 summary: This snap will display system information # 
 description: |
   This snap will display the following information:

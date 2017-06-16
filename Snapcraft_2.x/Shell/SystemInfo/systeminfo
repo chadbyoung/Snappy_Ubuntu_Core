@@ -8,23 +8,37 @@ echo ""
 echo "==============================="
 echo ""
 echo ""
+echo -ne "Product Name:	"
+sudo cat /sys/devices/virtual/dmi/id/product_name
+echo ""
 echo -ne "System Mfg:	"
-cat /sys/devices/virtual/dmi/id/board_vendor
-echo -ne "Model:		"
-cat /sys/devices/virtual/dmi/id/board_name
+sudo cat /sys/devices/virtual/dmi/id/board_vendor
+echo -ne "Board Name: 	"
+sudo cat /sys/devices/virtual/dmi/id/board_name
+echo -ne "Board Version: 	"
+sudo cat /sys/devices/virtual/dmi/id/board_version
+echo -ne "Board Serial: 	"
+sudo cat /sys/devices/virtual/dmi/id/board_name
 echo ""
-echo -ne "BIOS Mfg:	"
-cat /sys/devices/virtual/dmi/id/bios_vendor
-echo -ne "BIOS Date:	"
-cat /sys/devices/virtual/dmi/id/bios_date
-echo -ne "BIOS Version:	"
-cat /sys/devices/virtual/dmi/id/bios_version
+echo -ne "Chassis Vendor: "
+sudo cat /sys/devices/virtual/dmi/id/chassis_vendor
+echo -ne "Chassis Type: 	"
+sudo cat /sys/devices/virtual/dmi/id/chassis_type
+echo -ne "Chassis Serial: "
+sudo cat /sys/devices/virtual/dmi/id/chassis_serial
 echo ""
-echo -ne "Linux Info:	"
-uname -a
+echo -ne "BIOS Mfg: 	"
+sudo cat /sys/devices/virtual/dmi/id/bios_vendor
+echo -ne "BIOS Date: 	"
+sudo cat /sys/devices/virtual/dmi/id/bios_date
+echo -ne "BIOS Version: 	"
+sudo cat /sys/devices/virtual/dmi/id/bios_version
+echo ""
+echo -ne "Linux Info: 	"
+sudo uname -a
 echo ""
 echo "---------- Snaps installed ----------"
-snap list
+sudo snap list
 echo ""
 echo ""
 echo "==============================="

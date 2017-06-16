@@ -6,5 +6,5 @@
 # Copy the README file to the users home directory
 # Syntax -> (cp $SNAP/<readme.xyz> /home/<user>/
 
-cp $SNAP/README_weather.md /home/chad_young/
+cp $SNAP/README_weather.md /home/admin/
 
