@@ -1,1 +1,6 @@
 snapcraft.yaml~
+*.snap
+/parts
+/prime
+/stage
+
