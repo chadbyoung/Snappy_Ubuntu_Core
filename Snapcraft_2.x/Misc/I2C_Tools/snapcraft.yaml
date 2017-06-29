@@ -34,6 +34,7 @@ parts:
     plugin: nil
     stage-packages:
       - i2c-tools
+      - libi2c-dev
 
     # snap is now prime
     prime:
