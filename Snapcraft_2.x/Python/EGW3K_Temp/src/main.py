@@ -1,36 +1,58 @@
-# This is a work in progress.
-
-# Read the BIOS vendor
-bios_vendor = open("/sys/class/dmi/id/bios_vendor","r")
-string_input = bios_vendor.readline()
-BiosVendor = str(string_input)
-bios_vendor.close
-
-# Read   the BIOS date
-bios_date = open("/sys/class/dmi/id/bios_date","r")
-string_input = bios_date.readline()
-BiosDate = str(string_input)
-bios_date.close
-
-# Read the BIOS version
-bios_version = open("/sys/class/dmi/id/bios_version","r")
-string_input = bios_version.readline()
-BiosVersion = str(string_input)
-bios_version.close
+# In this program you will read three files. The integer and floats from these file will 
+# then be run throught a formula and temperature will be the result. 
 
 
-# Display the BIOS information
-print(BiosVendor)
-print(BiosDate)
-print(BiosVersion)
+def main():
+    
+     # Read the "in_temp_raw" file 
+     in_temp_raw = open("/sys/bus/iio/devices/iio:device0/in_temp_raw","r")
+     int_raw_input = in_temp_raw.readline()
+     InTempRaw = int(int_raw_input)
+     in_temp_raw.close
+     
+     # Read the "in_temp_offset" file 
+     in_temp_offset = open("/sys/bus/iio/devices/iio:device0/in_temp_offset","r")
+     int_offset_input = in_temp_offset.readline()
+     InTempOffset = int(int_offset_input)
+     in_temp_offset.close
+     
+     # Read the "in_temp_scale" file 
+     in_temp_scale = open("/sys/bus/iio/devices/iio:device0/in_temp_scale","r")
+     flt_scale_input = in_temp_scale.readline()
+     InTempScale = float(flt_scale_input)
+     in_temp_scale.close
+     
+     
+     # Display the in_temp_raw number
+     print('The in_temp_raw number is', InTempRaw)
+     
+     # Display the in_temp_offset number
+     print('The in_temp_offset number is', InTempOffset)
+     
+     # Display the in_temp_scale number
+     print('The in_temp_scale number is', InTempScale)
+
+     # Calculate the temperature
+     total = cal_temp(InTempRaw, InTempOffset, InTempScale)
+
+     # See if num1 and num2 add up
+     sumab = cal_ab(InTempRaw, InTempOffset)
+
+     # Display the sum of num1 and num2
+     print('num1 + num2 =', sumab)
+
+     # Display the temperature
+     print ('The temperature is', total, ' degrees celsius')
 
 
-#Read the "in_temp_raw" file 
-in_temp_raw = open("/sys/bus/iio/devices/iio:device0/in_temp_raw","r")
-int_raw_input = in_temp_raw.readline()
-InTempRaw = int(int_raw_input)
-in_temp_raw.close
+def cal_ab(num1, num2):
+    result = num1 + num2
+    return result
 
-#Display the file information
-print(InTempRaw)
 
+def cal_temp(num1, num2, num3):
+    result = ((num1 + num2) * num3)
+    return result
+
+# Call the main function
+main()

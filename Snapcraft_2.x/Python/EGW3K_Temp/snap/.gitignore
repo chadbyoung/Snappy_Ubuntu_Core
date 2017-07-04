@@ -6,3 +6,6 @@ tmp
 .remote-sync.json
 .snapcraft.yaml.um~
 snapcraft.yaml~
+.main.py.un~
+main.py~
+
