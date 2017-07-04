@@ -1,3 +1,6 @@
+# This is a WIP program is not ready for primetime.
+
+
 # In this program you will read three files. The integer and floats from these file will 
 # then be run throught a formula and temperature will be the result. 
 
