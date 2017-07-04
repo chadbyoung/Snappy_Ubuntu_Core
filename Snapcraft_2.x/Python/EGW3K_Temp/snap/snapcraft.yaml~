@@ -18,12 +18,27 @@ description: |
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
+
+#TODO:
+#  Copy the directory structure into the snap (dump i think) both "snap" and "src"
+
 apps:
   temperature:
-    command: "../src/python main.py"
+    command: "python ./src/main.py"
+  test:
+    command: "python"
 
 parts:
   pyinstall:
     plugin: python
     python-version: python2
     source: .
+  
+  myfiles:
+    plugin: dump
+    source: ../
+    organize:
+      ../src/main.py : src/main.py
+      
+      #    stage:
+      #      - main.py

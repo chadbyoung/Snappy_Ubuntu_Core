@@ -26,7 +26,7 @@ print(BiosVersion)
 
 
 #Read the "in_temp_raw" file 
-in_temp_raw = open("/sys/bus/iio/devices/iio\:device0/in\_temp\_raw","r")
+in_temp_raw = open("/sys/bus/iio/devices/iio:device0/in_temp_raw","r")
 int_raw_input = in_temp_raw.readline()
 InTempRaw = int(int_raw_input)
 in_temp_raw.close
