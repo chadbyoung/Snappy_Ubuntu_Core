@@ -1,8 +1,0 @@
-snapcraft.yaml~
-*.snap
-/parts
-/prime
-/stage
-/snap
-.gitignore
-
