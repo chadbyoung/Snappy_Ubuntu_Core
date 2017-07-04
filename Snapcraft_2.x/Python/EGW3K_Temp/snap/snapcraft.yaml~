@@ -24,7 +24,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
   temperature:
-    command: "python ./src/main.py"
+    command: "python $SNAP/src/main.py"
   test:
     command: "python"
 

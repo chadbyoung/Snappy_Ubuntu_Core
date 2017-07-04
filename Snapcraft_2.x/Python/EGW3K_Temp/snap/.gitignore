@@ -4,3 +4,5 @@ parts
 stage
 tmp
 .remote-sync.json
+.snapcraft.yaml.um~
+snapcraft.yaml~
