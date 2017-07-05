@@ -106,7 +106,7 @@ def main():
 
        # Print the temp
        print ''
-       print 'The internal temperature of the EGW3002 is', format(total3, ',.2f'), 'degrees celsius'
+       print 'The internal temperature of the EGW3002 is', format(total2, ',.2f'), 'degrees celsius'
        print ''
 
     else:
