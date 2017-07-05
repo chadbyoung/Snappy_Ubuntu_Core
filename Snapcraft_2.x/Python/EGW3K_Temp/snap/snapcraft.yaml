@@ -11,7 +11,7 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 
 apps:
   temperature:
-    command: "python $SNAP/src/main.py"
+    command: "python $SNAP/src/hts221_temp.py"
 
 parts:
   pyinstall:
@@ -23,5 +23,5 @@ parts:
     plugin: dump
     source: ../
     organize:
-      ../src/main.py : src/main.py
+      ../src/hts221_temp.py : src/hts221_temp.py
       
