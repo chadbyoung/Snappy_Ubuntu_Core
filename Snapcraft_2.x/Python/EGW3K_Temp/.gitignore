@@ -6,6 +6,7 @@ tmp
 .remote-sync.json
 .*.um~
 snapcraft.yaml~
+.snapcraft.yaml.un~
 ..gitignore.un~
 .*.md.un~
 .gitignore~
