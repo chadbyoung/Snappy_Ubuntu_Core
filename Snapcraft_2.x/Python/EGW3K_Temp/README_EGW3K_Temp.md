@@ -18,7 +18,7 @@ The files that are read are:
 
 The int/floats in the files above are then run through the following formula:
     
-    T = ((in_temp_raw + in_temp_offset) * in_temp_scale))
+    T = ((((in_temp_raw + in_temp_offset) * in_temp_scale))/1000)
 
 ## Instructions
 To display the temperature, run the following commmand:
