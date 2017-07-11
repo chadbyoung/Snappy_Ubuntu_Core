@@ -40,6 +40,7 @@
 # needed to find a file later on
 import os.path
 
+div1k = 1000
 
 def main():
     
@@ -63,16 +64,16 @@ def main():
     iio_dev0.close
     
     # Read iio:device1
-    iio_dev1 = open("/sys/bus/iio/devices/iio:device1/name","r")
-    iio_dev1_model = iio_dev1.readline().strip()
-    Dev1 = str(iio_dev1_model)
-    iio_dev1.close
+    #iio_dev1 = open("/sys/bus/iio/devices/iio:device1/name","r")
+    #iio_dev1_model = iio_dev1.readline().strip()
+    #Dev1 = str(iio_dev1_model)
+    #iio_dev1.close
     
     # Read iio:device2
-    iio_dev2 = open("/sys/bus/iio/devices/iio:device2/name","r")
-    iio_dev2_model = iio_dev2.readline().strip()
-    Dev2 = str(iio_dev2_model)
-    iio_dev2.close
+    #iio_dev2 = open("/sys/bus/iio/devices/iio:device2/name","r")
+    #iio_dev2_model = iio_dev2.readline().strip()
+    #Dev2 = str(iio_dev2_model)
+    #iio_dev2.close
     
     ### Read the three file names using the loop variable names from above
     # TODO
@@ -137,9 +138,10 @@ def main():
        total3 = phase3(total2, div1k)
 
        # Print the temp
-       print ''
-       print 'The internal temperature of the EGW3002 is', format(total2, ',.2f'), 'degrees celsius'
-       print ''
+       #print ''
+       #print 'The internal temperature of the EGW3001 is', format(total2, ',.2f'), 'degrees celsius'
+       print format(total2, ',.2f')
+       #print ''
 
     else:
 	print'The ST HTS221 is not installed on this machine'
