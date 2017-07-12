@@ -60,6 +60,19 @@ def main():
     # Standardize on a name for "iio_dev0 = open...."
     # Standardize on a name for "iio_dev0_model..."
 
+    filename = "/sys/bus/iio/devices/iio:device0/name"
+
+    def file_or_directory(filename)
+        if os.path.isfile(filename):
+            print('Filename {0} is a file'.format(filename))
+        else:
+            print('Filename {0} is a directory'format(filename))
+
+
+
+
+
+
     
     # Read the model of the gateway you are working on
     # Read iio:device0
@@ -85,7 +98,6 @@ def main():
     # Use the same loop from above to read the files
     # Use the variable path like you did looking for the contents above
     # The number of lines needed to read the file can be reduced with a loop
-    
     
 
     # Read the "in_temp_raw" file 
