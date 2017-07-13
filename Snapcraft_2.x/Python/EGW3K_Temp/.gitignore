@@ -13,3 +13,4 @@ snapcraft.yaml~
 *.md~
 .*.py.un~
 *.py~
+_*
