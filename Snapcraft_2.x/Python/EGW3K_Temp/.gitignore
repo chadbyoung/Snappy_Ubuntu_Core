@@ -14,3 +14,4 @@ snapcraft.yaml~
 .*.py.un~
 *.py~
 _*
+snap/snap/
