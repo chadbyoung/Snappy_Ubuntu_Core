@@ -1,17 +1,45 @@
-# Version 0.0201
-
-# TODO
-# Import the file header from the previous file
-# If the file header does not explain what the purpose of the program is
-# -- then you will need to write a short  description
+######################################################################
+#
+#
+# Created on: July 10, 2017
+# Author: Chad Young
+# Contact: chad.young@dell.com
+# File name: hts221_temp.py
+# File ver: 0.0201
+#
+#  *** Important Notice ***
+#
+# This program should not be used commercially as I am hacking together
+# what ever it takes to make this program work. This program is for••
+# test purposes only. Use it with caution as you would with anything•
+# that you find on the internet for free :)
+#
+#
+######################################################################
+#
+#
+# This program is written for the Dell Edge Gateway 3002. This program•
+# will not work on other systems due to the iio:device being on a•
+# different address - iio:device[0,1,2]
+#
+# In this program three files are read. The integer and floats from•
+# these files will then be run throught a formula and temperature will
+# be the result. The formula is:
+#   T = ((in_temp_raw + in_temp_offset) * in_temp_scale))/1000
+#
+#
+######################################################################
 
 from os import path
 
 # set the main loop count to 0
 i = 0
 
-# The main loop is set to 4 because as I have not seen a device with more
-# than 4 devices on the EGW3K.
+# set the divider to 1k
+# div1k = 1000
+
+# The main loop is set to 4, and may need to be increased. I have not seen an
+# EGW3K with more than 4 devices.
 while i < 4:
     # DEBUG
     # print "while pass", i
@@ -20,8 +48,10 @@ while i < 4:
     # This is the main path to the directory & file name that will be looked for
     PATH = "/sys/bus/iio/devices/iio:device%s/name" % i
 
-    # if path.exists('./device%s/name' % i) and path.isfile('./device%s/name' % i):
-    if path.exists('/sys/bus/iio/devices/iio:device%s/name' % i) and path.isfile('/sys/bus/iio/devices/iio:device%s/name' % i):
+    # if path.exists('./device%s/name' % i) and
+    # -- path.isfile('./device%s/name' % i):
+    if path.exists('/sys/bus/iio/devices/iio:device%s/name' % i) and \
+            path.isfile('/sys/bus/iio/devices/iio:device%s/name' % i):
 
         # DEBUG
         # print "PATH =", PATH
@@ -81,12 +111,10 @@ while i < 4:
         else:
             # DEBUG
             # print "The file exists but the text is wrong"
-            # Leave the line blank in production
-            # print ""
             break
     else:
         print("The file that this program is looking for cannot be found")
 
-        # need to add the couter so that the main loop will continue
+        # need to add the counter so that the main loop will continue
         i = i + 1
     exit()
