@@ -10,21 +10,22 @@
 #  *** Important Notice ***
 #
 # This program should not be used commercially as I am hacking together
-# what ever it takes to make this program work. This program is for••
-# test purposes only. Use it with caution as you would with anything•
+# what ever it takes to make this program work. This program is for
+# test purposes only. Use it with caution as you would with anything
 # that you find on the internet for free :)
 #
 #
 ######################################################################
 #
 #
-# This program is written for the Dell Edge Gateway 3002. This program•
-# will not work on other systems due to the iio:device being on a•
-# different address - iio:device[0,1,2]
+# This program is written for the Dell Edge Gateway 300X series. This
+# program may not work on other Dell Edged Gateways as I do not know
+# what io device address is being used for the ST HTS221.
 #
-# In this program three files are read. The integer and floats from•
-# these files will then be run throught a formula and temperature will
-# be the result. The formula is:
+# In this program three files are read. The floats from these files
+# will then be run through a formula and temperature in degrees
+# celsius will be the result. The formula used is:
+#
 #   T = ((in_temp_raw + in_temp_offset) * in_temp_scale))/1000
 #
 #
