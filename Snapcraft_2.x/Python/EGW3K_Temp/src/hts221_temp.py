@@ -1,14 +1,23 @@
-# Version 0.0200
+# Version 0.0201
+
+# TODO
+# Import the file header from the previous file
+# If the file header does not explain what the purpose of the program is
+# -- then you will need to write a short  description
 
 from os import path
 
+# set the main loop count to 0
 i = 0
 
-while i < 3:
+# The main loop is set to 4 because as I have not seen a device with more
+# than 4 devices on the EGW3K.
+while i < 4:
     # DEBUG
     # print "while pass", i
 
     # PATH = "./device%s/name" % i
+    # This is the main path to the directory & file name that will be looked for
     PATH = "/sys/bus/iio/devices/iio:device%s/name" % i
 
     # if path.exists('./device%s/name' % i) and path.isfile('./device%s/name' % i):
@@ -45,14 +54,16 @@ while i < 3:
             InTempScale = float(flt_scale_input)
             in_temp_scale.close
 
+            # The next few line are setting up the def and the math for the
+            # -- main temperature function
             def phase1(num1, num2):
                 return num1 + num2
 
             def phase2(num1, num2):
                 return num1 * num2
 
-            def phase3(num1, num2):
-                return num1 / num2
+            # def phase3(num1, num2):
+            #     return num1 / num2
 
             # Get the sum of the numbers
             total1 = phase1(InTempRaw, InTempOffset)
@@ -63,8 +74,10 @@ while i < 3:
             # Divide by 1000 - may be needed
             # total3 = phase3 (total2, div1k)
 
-            # Print the temp
+            # Format and print the temperature data, should look like 35.51
+            # The temperature is in degrees celcius
             print(format(total2, ',.2f'))
+
         else:
             # DEBUG
             # print "The file exists but the text is wrong"
@@ -73,6 +86,7 @@ while i < 3:
             break
     else:
         print("The file that this program is looking for cannot be found")
+
         # need to add the couter so that the main loop will continue
         i = i + 1
     exit()
