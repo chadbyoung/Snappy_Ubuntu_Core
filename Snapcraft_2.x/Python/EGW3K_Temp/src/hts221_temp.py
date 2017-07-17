@@ -68,19 +68,19 @@ while i < 4:
             # print "The file with the text hts221 what found here:", PATH
 
             # Read the "in_temp_raw" file
-            in_temp_raw = open("/sys/bus/iio/devices/iio:device0/in_temp_raw", "r")
+            in_temp_raw = open('/sys/bus/iio/devices/iio:device%s/in_temp_raw' % i, "r")
             flt_raw_input = in_temp_raw.readline()
             InTempRaw = float(flt_raw_input)
             in_temp_raw.close
 
             # Read the "in_temp_offset" file
-            in_temp_offset = open("/sys/bus/iio/devices/iio:device0/in_temp_offset", "r")
+            in_temp_offset = open('/sys/bus/iio/devices/iio:device%s/in_temp_offset' % i, "r")
             flt_offset_input = in_temp_offset.readline()
             InTempOffset = float(flt_offset_input)
             in_temp_offset.close
 
             # Read the "in_temp_scale" file
-            in_temp_scale = open("/sys/bus/iio/devices/iio:device0/in_temp_scale", "r")
+            in_temp_scale = open('/sys/bus/iio/devices/iio:device%s/in_temp_scale' % i, "r")
             flt_scale_input = in_temp_scale.readline()
             InTempScale = float(flt_scale_input)
             in_temp_scale.close
