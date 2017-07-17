@@ -1,11 +1,11 @@
 ######################################################################
 #
 #
-# Created on: July 10, 2017
+# Created on: July 17, 2017
 # Author: Chad Young
 # Contact: chad.young@dell.com
 # File name: hts221_temp.py
-# File ver: 0.0201
+# File ver: 0.0300
 #
 #  *** Important Notice ***
 #
@@ -36,6 +36,7 @@ from os import path
 # set the main loop count to 0
 i = 0
 
+# DEBUG
 # set the divider to 1k
 # div1k = 1000
 
@@ -43,10 +44,9 @@ i = 0
 # EGW3K with more than 4 devices.
 while i < 4:
     # DEBUG
-    # print "while pass", i
+    # print("Primary while loop #", i)
 
-    # PATH = "./device%s/name" % i
-    # This is the main path to the directory & file name that will be looked for
+    # DEBUG
     PATH = "/sys/bus/iio/devices/iio:device%s/name" % i
 
     # if path.exists('./device%s/name' % i) and
@@ -55,7 +55,9 @@ while i < 4:
             path.isfile('/sys/bus/iio/devices/iio:device%s/name' % i):
 
         # DEBUG
-        # print "PATH =", PATH
+        # print("First IF Loop")
+        # print("The path exists and it is a file")
+        # print("PATH =", PATH)
 
         # fline = open('./device%s/name' % i, "r")
         isfile = open('/sys/bus/iio/devices/iio:device%s/name' % i, "r")
@@ -63,26 +65,36 @@ while i < 4:
         sttemp = str(isfile_text)
         isfile.close
 
+        # DEBUG
+        # print("sttemp is", sttemp)
+
         if str(sttemp) == "hts221":
             # DEBUG
-            # print "The file with the text hts221 what found here:", PATH
+            # print("Second IF loop")
+            # print("The file with the text hts221 what found here:", PATH)
 
             # Read the "in_temp_raw" file
             in_temp_raw = open('/sys/bus/iio/devices/iio:device%s/in_temp_raw' % i, "r")
             flt_raw_input = in_temp_raw.readline()
             InTempRaw = float(flt_raw_input)
+            # DEBUG
+            # print("InTempRaw =", InTempRaw)
             in_temp_raw.close
 
             # Read the "in_temp_offset" file
             in_temp_offset = open('/sys/bus/iio/devices/iio:device%s/in_temp_offset' % i, "r")
             flt_offset_input = in_temp_offset.readline()
             InTempOffset = float(flt_offset_input)
+            # DEBUG
+            # print("InTempOffset =", InTempOffset)
             in_temp_offset.close
 
             # Read the "in_temp_scale" file
             in_temp_scale = open('/sys/bus/iio/devices/iio:device%s/in_temp_scale' % i, "r")
             flt_scale_input = in_temp_scale.readline()
             InTempScale = float(flt_scale_input)
+            # DEBUG
+            # print("InTempScale =", InTempScale)
             in_temp_scale.close
 
             # The next few line are setting up the def and the math for the
@@ -93,6 +105,7 @@ while i < 4:
             def phase2(num1, num2):
                 return num1 * num2
 
+            # DEBUG
             # def phase3(num1, num2):
             #     return num1 / num2
 
@@ -102,20 +115,29 @@ while i < 4:
             # Multiply the numbers
             total2 = phase2(total1, InTempScale)
 
+            # DEBUG
             # Divide by 1000 - may be needed
             # total3 = phase3 (total2, div1k)
 
-            # Format and print the temperature data, should look like 35.51
-            # The temperature is in degrees celcius
+            # Format and print the temperature data, should look like 35.51 and
+            # is in degrees celcius
             print(format(total2, ',.2f'))
+
+            # No need to run anymore
+            exit()
 
         else:
             # DEBUG
-            # print "The file exists but the text is wrong"
-            break
+            # print("Second Else loop")
+            # print("The file exists but the text is wrong")
+            pass
     else:
-        print("The file that this program is looking for cannot be found")
+        # DEBUG
+        # print("first Else loop")
+        # print("The file that this program is looking for cannot be found")
+        pass
 
         # need to add the counter so that the main loop will continue
-        i = i + 1
-    exit()
+    i = i + 1
+
+exit()
