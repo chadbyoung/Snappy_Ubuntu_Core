@@ -1,0 +1,55 @@
+name: golang # you probably want to 'snapcraft register <name>'
+version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+summary: Hellow World in golang # 79 char long summary
+description: |
+  Sinple Hello World program for golang
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+apps:
+    go:
+        command: usr/local/go/bin/go
+    gofmt:
+        command: usr/local/go/bin/gofmt
+    hello:
+        command: "go run hello_world.go"
+
+parts:
+#    go:
+#        plugin: gobuild
+#        source: https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz
+#        source-type: tar
+#        snap:
+#            - -*
+    go-bootstrap:
+        plugin: nil
+        build-packages:
+            - gcc
+            - libc6-dev
+            - bash
+        source: https://storage.googleapis.com/golang/go1.4-bootstrap-20170531.tar.gz
+        build: |
+            cd src
+            ./make.bash
+
+    go:
+        plugin: nil
+        build-packages:
+            - gcc
+            - libc6-dev
+            - bash
+        source: https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz
+        build: |
+            cd src
+            ./make.bash
+        install: |
+            mkdir -p $SNAPCRAFT_PART_INSTALL/usr/local/go/
+            cp -r ../build/* $SNAPCRAFT_PART_INSTALL/usr/local/go
+        after: [go-bootstrap]
+
+    myfile:
+        plugin: dump
+        source: ../
+        organize:
+            ../src/hello_world.go : src/hello_world.go
