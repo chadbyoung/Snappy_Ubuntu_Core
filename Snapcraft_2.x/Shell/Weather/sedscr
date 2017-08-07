@@ -1,0 +1,46 @@
+# This is a sed script to parse out a line of text from a specifc url
+# The input for the file is "http://www.accuweather.com/en/us/pflugerville-tx/78660/weather-forecast/2144251"
+
+# The line below is what is being parsed 
+# acm_RecentLocationsCarousel.push({name:"Pflugerville, TX", daypart:'night', href:'/en/us/pflugerville-tx/78660/weather-forecast/2144251', icon:'i-7-l', bg:'s', temp:'62',  realfeel:'65',  text:"Cloudy"});
+
+# The line below is what I want the output to be
+# Pflugerville,TX,night,temp,62,realfeel,65
+
+
+# Search for a line starts with "acm_RecentLocationsCarousel.push({name:"Pflugerville" and print it
+/^acm_RecentLocationsCarousel\.push({name:"Pflugerville/ {
+	
+	# replace the colons with commas
+	s/\:/\,/g
+	
+	# remove all spaces from the line
+	s/ //g
+	
+	# remove all the double quotes from the line
+	s/"//g
+
+	# remove all the single quotes from the line
+	s/'//g
+
+	# remove the first part of the line
+	s/^acm_RecentLocationsCarousel\.push({name,//g 
+	
+	# remove this text from the line
+	s/daypart,//g
+
+	# remove this text from the line
+	s/href,\/en\/us\/pflugerville-tx\/78660\/weather-forecast\/2144251,//g
+	
+	# remove this text from the line
+	s/icon,i-7-l,//g
+
+	# remove this text from the line
+	s/bg,s,//g
+
+	# remove the last part of the line
+	s/,text,Cloudy});//g
+	
+	# the p is so that the line will print to the screen
+	p 
+}

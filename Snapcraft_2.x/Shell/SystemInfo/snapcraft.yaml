@@ -1,0 +1,32 @@
+name: systeminfo # 
+version: '0.2' # 
+summary: This snap will display system information # 
+description: |
+  This snap will display the following information:
+  System Mfg
+  System model
+  BIOS Mfg
+  BIOS Date
+  BIOS Version
+  Linux Information
+  Snaps installed on the system 
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+apps:
+  
+ # This command runs the shell script to show system information
+  show:
+    command: systeminfo
+
+  # This command runs the shell script to move the README to the user's home dir
+  mvfile:
+    command: copyreadme
+    daemon: simple
+
+parts:
+  show:
+    plugin: dump
+    source: .
+
