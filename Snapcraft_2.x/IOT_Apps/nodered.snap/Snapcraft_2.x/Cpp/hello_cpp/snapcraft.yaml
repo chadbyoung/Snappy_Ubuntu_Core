@@ -1,0 +1,19 @@
+name: hello-world-cpp # the name of the snap
+version: 0.1  # the version of the snap
+summary: A CPP hello world program # 79 char long summary
+description: A program in CPP that says Hello World! # A longer description for the snap
+grade: devel
+confinement: devmode
+
+
+apps:
+    run:
+        command: Hello
+
+parts:
+    local:
+        plugin: make
+        source: .
+        stage-packages:
+        - libgtk2.0-dev
+
