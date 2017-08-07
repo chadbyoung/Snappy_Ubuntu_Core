@@ -1,0 +1,17 @@
+*.snap
+prime
+parts
+stage
+tmp
+.remote-sync.json
+.*.um~
+snapcraft.yaml~
+.snapcraft.yaml.un~
+..gitignore.un~
+.*.md.un~
+.gitignore~
+*.md~
+.*.py.un~
+*.py~
+_*
+snap/snap/

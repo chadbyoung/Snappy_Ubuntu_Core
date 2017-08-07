@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The original code for this came from https://github.com/muka/nodered.snap.git,
 # I have since changes a few things to make it work for me.
 #
@@ -14,3 +15,6 @@ level = debug
 metric = true
 audit = true
 
+=======
+This will be the main folder. Look in the sub folders for additional files
+>>>>>>> 6fe7fc46d3a5a32f4247be6207a33d7a4900ca17

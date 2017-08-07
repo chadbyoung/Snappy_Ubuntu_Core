@@ -1,0 +1,59 @@
+name: clt #
+version: '0.5' # 
+summary: command line tools for snappy #
+description: command line tools for snappy lspci lsusb dmidecode #
+grade: devel # 
+confinement: devmode #
+
+apps:
+    lspci:
+        command: usr/bin/lspci
+        plugs: [hardware-observe]
+    lsusb:
+        command: usr/bin/lsusb
+        plugs: [hardware-observe]
+    dmidecode:
+        command: usr/sbin/dmidecode
+        plugs: [hardware-observe]
+    lshw:
+        command: usr/bin/lshw
+        plugs: [hardware-observe]
+    hwinfo:
+        command: usr/sbin/hwinfo
+        plugs: [hardware-observe]
+    i2cdetect:
+        command: /usr/sbin/i2cdetect
+        plugs: [hardware-observe]
+    i2cdump:
+        command: /usr/sbin/i2cdump
+        plugs: [hardware-observe]
+
+parts:
+    pciutils:
+        plugin: nil 
+        stage-packages:
+            - pciutils 
+    usbutils:
+        plugin: nil
+        stage-packages:
+            - usbutils
+    dmidecode:
+        plugin: nil
+        stage-packages:
+            - dmidecode
+    lshw:
+        plugin: nil
+        stage-packages:
+            - lshw
+    hwinfo:
+        plugin: nil
+        stage-packages:
+            - hwinfo
+    i2ctool:
+        plugin: nil
+        stage-packages:
+            - i2c-tools
+
+
+
+
