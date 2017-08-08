@@ -1,2 +1,0 @@
-example text
-example text

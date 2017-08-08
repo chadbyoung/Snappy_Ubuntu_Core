@@ -1,9 +1,0 @@
-architectures:
-- amd64
-binaries:
-- exec: scripts/hlsp.sh.wrapper
-  name: hlsp
-icon: meta/dell.png
-name: dell-system-profiler
-vendor: Rory Rudolph <rory_rudolph@dell.com>
-version: 3.1
