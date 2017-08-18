@@ -1,6 +1,6 @@
 # This repo has been deprecated  
   
-# The new repo is here:  
+# The new repos are here:  
   
-'https://github.com/chadyoungdell/Ubuntu-Core.git'
+'https://github.com/chadyoungdell'
 
